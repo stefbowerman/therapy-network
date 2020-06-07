@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import StreamOverlay from '~/components/streamOverlay'
+import StreamOverlay from '~/components/StreamOverlay'
 
 export default {
   components: {

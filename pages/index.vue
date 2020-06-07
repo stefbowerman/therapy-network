@@ -24,17 +24,7 @@
 </template>
 
 <script>
-// import TwitchPlayer from 'vue-twitch-player'
-
 export default {
-  components: {
-    // TwitchPlayer
-  },
-  data() {
-    return {
-      channel: 'behindtherhyme'
-    }
-  },
   methods: {
     joinStream() {
       this.$store.commit('OPEN_STREAM_OVERLAY')
