@@ -1,0 +1,26 @@
+$black: #000;
+$white: #FFF;
+$red: #F00;
+$green: #284c2e;
+$yellow: #ffff00;
+$pale-yellow: #ffffdb;
+
+$font-family-serif: 'Times', serif;
+$font-family-display: 'Therapy', sans-serif;
+
+$base-font-family: $font-family-serif;
+$headings-font-family: $font-family-display;
+
+// $site-gutter: 30px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1480px
+) !default;
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
